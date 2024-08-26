@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>x-o-game</title>
+</head>
+
+<body>
+    <div class="no-game"></div>
+
+    <div class="progress-equal">
+        <p>Equal Game</p>
+    </div>
+
+    <div class="progress">
+        <p>Next Game</p>
+    </div>
+
+    <div class="play-ground">
+        <div class="player turn">
+            <div class="point">
+                <p id="score" class="p1">0</p>
+            </div>
+            <div class="name">
+                <p id="name">
+                    Player 1 (X)
+                </p>
+            </div>
+        </div>
+
+        <div class="game">
+            <div class="box">
+                <p></p>
+            </div>
+            <div class="box">
+                <p></p>
+            </div>
+            <div class="box">
+                <p></p>
+            </div>
+            <div class="box">
+                <p></p>
+            </div>
+            <div class="box">
+                <p></p>
+            </div>
+            <div class="box">
+                <p></p>
+            </div>
+            <div class="box">
+                <p></p>
+            </div>
+            <div class="box">
+                <p></p>
+            </div>
+            <div class="box">
+                <p></p>
+            </div>
+        </div>
+
+        <div class="player">
+            <div class="point">
+                <p id="score" class="p2">0</p>
+            </div>
+            <div class="name">
+                <p id="name">
+                    Player 2 (O)
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="method-rules">
+        <div class="method">
+            <li>Description</li>
+            <li>Make it your own by clicking on each house</li>
+            <li>The prominence of each player's score card indicates that player's turn. (Player 1 starts the first game)</li>
+        </div>
+
+        <div class="rules">
+            <li>Rules</li>
+            <li>First, after each win, the winner starts the next game.</li>
+            <li>Second, after the game is tied, the starter of the next game is changed.</li>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
